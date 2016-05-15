@@ -1,13 +1,15 @@
-# Test-free #
+# Free Side Effects #
 
-A simple Free Monad example based on the KVS Example by Ken Scambler: https://git.io/vrGIs
+A simple Free Monad example based on the [KVS](https://git.io/vrGIs) Example by [Ken Scambler](https://twitter.com/KenScambler).
 
 Defines a Free Monad that can:
+
 1. Query the existence of a file.
 1. Read a file.
 1. Write a file.
 
 Has two interpreters:
+
 1. consoleInterpreter - writes what it's doing to the console.
 1. testIntepreter - reads and writes state to a map.
 
